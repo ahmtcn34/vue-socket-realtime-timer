@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: -i",
+      "code": "ENOENT",
+      "stack": "Error: not found: -i\n    at getNotFoundError (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41575:51)\n    at Function.whichSync [as sync] (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41652:13)\n    at getCommandAbsolutePathSync (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43217:44)\n    at default_1 (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43226:32)\n    at C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:181018:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "C:\\Users\\ahmet\\Desktop\\vue-socket-timer\\backend",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: -i",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: -i\n    at getNotFoundError (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41575:51)\n    at Function.whichSync [as sync] (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:41652:13)\n    at getCommandAbsolutePathSync (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43217:44)\n    at default_1 (C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:43226:32)\n    at C:\\Users\\ahmet\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:181018:39"
+    }
+  }
+}
